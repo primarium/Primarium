@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Primarium
+email: justin@Primarium.IO
+description: > # this means to ignore newlines until "baseurl:"
+  Primarium is the blog of web devloper Justin Isbell as well as the point of contact for anyone wanting to collaborate with Justin for their web design/development project.
+  Justin is based in  the Colorado Springs area.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.primarium.IO" # the base hostname & protocol for your site
+twitter_username: PrimariumIO
+github_username:  Primarium
+
+# Build settings
+markdown: kramdown
