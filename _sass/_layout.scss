@@ -210,12 +210,12 @@
     padding-top:1em;
     font-weight: 600;
 }
-ul{
+.front-menu{
         list-style: none;
         float:right;
         margin-right:10em;
         text-align: right;
-        li{
+        .li{
             display:block;
             text-align: right;
         }
