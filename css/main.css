@@ -171,13 +171,19 @@ pre {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
+      z-index: 5;
       position: absolute;
       top: 9px;
       right: 7.5px;
       background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
-      text-align: right; }
+      text-align: center; }
+      .site-nav .leftnav {
+        z-index: 5; }
+        .site-nav .leftnav .page-link {
+          z-index: 5;
+          display: inline-block; }
       .site-nav .menu-icon {
         display: block;
         float: right;
@@ -193,14 +199,16 @@ pre {
             fill: #424242; }
       .site-nav .trigger {
         clear: both;
-        display: none; }
+        display: none;
+        z-index: 5; }
       .site-nav:hover .trigger {
         display: block;
         padding-bottom: 5px; }
       .site-nav .page-link {
+        z-index: 6;
         display: inline-block;
-        padding: 5px 10px;
-        margin-left: 20px; }
+        padding: 5px;
+        margin-left: 0px; }
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
 
@@ -257,7 +265,10 @@ pre {
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (15px / 2));
-    width: calc(100% - (15px / 2)); } }
+    width: calc(100% - (15px / 2)); }
+
+  .site-footer {
+    width: 90%; } }
 /**
  * Page content
  */
@@ -357,6 +368,31 @@ pre {
   display: block;
   font-size: 24px; }
 
+@media screen and (max-width: 600px) {
+  .typeform-widget {
+    margin-top: 4em; }
+
+  .page-content-nopad {
+    width: 100%; }
+
+  .front-featured-article {
+    min-height: 30em; }
+    .front-featured-article .front-featured-title {
+      padding-top: .25;
+      margin: 0;
+      font-size: 3em;
+      text-align: center; }
+    .front-featured-article .front-menu {
+      float: none;
+      text-align: left;
+      margin: auto; }
+      .front-featured-article .front-menu .front-link {
+        font-size: 2em;
+        padding-left: 2em; }
+
+  .page-content {
+    width: 90%;
+    margin: auto; } }
 /**
  * Posts
  */
