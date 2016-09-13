@@ -438,6 +438,17 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+  .post-content .postlist {
+    list-style: none;
+    text-decoration: none; }
+    .post-content .postlist :hover {
+      background-color: #e6ffe6; }
+    .post-content .postlist .postlist-link {
+      font-size: 1.5em;
+      text-decoration: none;
+      color: black; }
+      .post-content .postlist .postlist-link :visited {
+        color: black; }
 
 /**
  * Syntax highlighting styles
