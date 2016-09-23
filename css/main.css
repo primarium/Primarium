@@ -50,7 +50,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 15px; }
+  margin-left: 0; }
 
 li > ul,
 li > ol {
@@ -441,14 +441,28 @@ pre {
   .post-content .postlist {
     list-style: none;
     text-decoration: none; }
-    .post-content .postlist :hover {
-      background-color: #e6ffe6; }
+    .post-content .postlist .postlist-listitem {
+      margin: .5em;
+      padding: .5em;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+      background-color: #3D5AFE;
+      border-radius: 10px; }
+    .post-content .postlist .postlist-listitem:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1); }
     .post-content .postlist .postlist-link {
       font-size: 1.5em;
       text-decoration: none;
-      color: black; }
+      color: white; }
       .post-content .postlist .postlist-link :visited {
-        color: black; }
+        color: white; }
 
 /**
  * Syntax highlighting styles
@@ -590,3 +604,80 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.parent-list-style1 {
+  background-color: #00b3b3;
+  border-radius: 8px;
+  margin: 1em;
+  list-style: none;
+  padding: .5em;
+  font-size: 2em;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease; }
+  @media screen and (max-width: 600px) {
+    .parent-list-style1 {
+      font-size: 1.2em;
+      padding: 5px;
+      margin: 10px 0px;
+      font-weight: 600;
+      width: 100%; } }
+  .parent-list-style1 .child-list-style1 {
+    list-style: none;
+    font-size: 16px; }
+    @media screen and (max-width: 600px) {
+      .parent-list-style1 .child-list-style1 {
+        font-size: 16px;
+        margin: auto;
+        font-weight: 400;
+        width: 100%; } }
+
+.parent-list-style1:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.emphasis1 {
+  font-weight: 600;
+  color: #00b3b3;
+  font-size: 1.5em; }
+
+.parent-list-style2 {
+  background-color: #FB8C00;
+  border-radius: 8px;
+  margin: 1em;
+  list-style: none;
+  padding: .5em;
+  font-size: 2em;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease; }
+  @media screen and (max-width: 600px) {
+    .parent-list-style2 {
+      font-size: 1.2em;
+      padding: 5px;
+      margin: 10px 0px;
+      font-weight: 600;
+      width: 100%; } }
+  .parent-list-style2 .child-list-style2 {
+    list-style: none;
+    font-size: 16px; }
+    @media screen and (max-width: 600px) {
+      .parent-list-style2 .child-list-style2 {
+        font-size: 16px;
+        margin: auto;
+        font-weight: 400;
+        width: 100%; } }
+
+.parent-list-style2:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
