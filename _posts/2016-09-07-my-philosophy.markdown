@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "My Philosophy"
+title:  "My Philosophy in Technical Work"
 date:   2016-09-07 10:15:08 -0600
-categories: Primarium General
+categories: Tech 
 ---
 
 To help frame my work, give reference to how decisions are made in projects, and to share my views on what is important in a software development project I thought I would share my top considerations once I've accepted a project. 

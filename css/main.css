@@ -442,27 +442,20 @@ pre {
     list-style: none;
     text-decoration: none; }
     .post-content .postlist .postlist-listitem {
-      margin: .5em;
-      padding: .5em;
-      -webkit-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-      transition: all 1s ease;
-      background-color: #3D5AFE;
-      border-radius: 10px; }
-    .post-content .postlist .postlist-listitem:hover {
-      -webkit-transform: scale(1.1);
-      -moz-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      -o-transform: scale(1.1);
-      transform: scale(1.1); }
+      margin: 2em; }
     .post-content .postlist .postlist-link {
       font-size: 1.5em;
       text-decoration: none;
-      color: white; }
+      color: white;
+      margin: .5em;
+      padding: .5em 1em;
+      background-color: #696a6d;
+      border-radius: 10px; }
       .post-content .postlist .postlist-link :visited {
-        color: white; }
+        color: #696a6d; }
+    .post-content .postlist .postlist-link:hover {
+      background-color: #ffffff;
+      color: #696a6d; }
 
 /**
  * Syntax highlighting styles
@@ -681,3 +674,64 @@ pre {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1); }
+
+.defclick {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 600; }
+
+.ui-widget-header {
+  background: white;
+  border: none; }
+
+.ui-dialog .ui-dialog-title {
+  background: white;
+  border: none; }
+.ui-dialog .ui-dialog-titlebar {
+  background: white;
+  border: none; }
+
+.catbloc {
+  font-weight: 600;
+  display: none; }
+
+#allposts {
+  display: block; }
+
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translate(0, -50px); }
+  to {
+    opacity: 1;
+    transform: translate(0); } }
+@-webkit-keyframes slidedown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, -50px); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0); } }
+.postclick {
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: none;
+  color: #00b3b3;
+  padding-right: .5em;
+  padding-left: .5em;
+  border-right-style: solid;
+  border-right-width: 1px; }
+
+.postclick:hover {
+  cursor: pointer; }
+
+.aboutlink {
+  font-weight: 600;
+  color: #00b3b3;
+  text-decoration: none; }
+
+.aboutlink:visited {
+  color: #00b3b3; }
+
+.aboutlink:hover {
+  color: #00b3b3; }

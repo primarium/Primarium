@@ -2,9 +2,8 @@
 layout: post
 title:  "Follow the Intern - The importance of Failure"
 date:   2016-09-22 13:40:08 -0600
-categories: general intern
+categories: Tech
 ---
-
 I was recently asked to review some work done by an Intern at work over the summer. The intern had written an MVC app that was meant for managing some training data. The Intern (well call him Sam) had pretty well been left to his own devices while working on the project. A developer occasionally gave suggestions but that was it for the most part. In a result that will, I'm assuming, not come as a surprise the intern made quite a few mistakes. This post is an introduction to a series of posts where I will be going through some of the more common mistakes or errors the intern made in both the design and development phases of the project. 
 
 ## The Importance of Failure
@@ -20,7 +19,7 @@ Failure Teaches us a lot of lessons a lot faster than if we read them in a book 
 <ul>
     <li class="parent-list-style1">Failure occurs doing real work
         <ul>
-            <li class="child-list-style1">Failure most often occurs when trying to do something real, not theoretical. A lot of things look great on a whiteboard and then when it comes time to actually do them, fail quite spectacularly. When you work on something that has to go intro production, that does something, and people will in some fashion see or use it, the expectations are much higher than just discussing how you MIGHT do something. You'll make it, try it out, it won't work, and then the real learning starts. You spend 10 hours trying to figure out why your first javascript on a web page isn't working and finally figure out that you put the script at the top of the page and before the dom finished loading so the things you wanted it to do didn't exist when you ran it. Now you know something about how pages and scripts load.</li>
+            <li class="child-list-style1">Failure most often occurs when trying to do something real, not theoretical. A lot of things look great on a whiteboard and then when it comes time to actually do them, fail quite spectacularly. When you work on something that has to go intro production, that does something, and people will in some fashion see or use it, the expectations are much higher than just discussing how you MIGHT do something. You'll make it, try it out, it won't work, and then the real learning starts. You spend 10 hours trying to figure out why your first javascript on a web page isn't working and finally figure out that you put the script at the top of the page and before the <span class="defclick" data-target="/def/dom.html" >DOM</span> finished loading so the things you wanted it to do didn't exist when you ran it. Now you know something about how pages and scripts load.</li>
         </ul>
     </li>
 <li class="parent-list-style1"> Failure drives innovation.
