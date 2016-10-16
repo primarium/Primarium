@@ -390,7 +390,11 @@
         list-style: none;
         text-decoration: none;
         .postlist-listitem{
+            display:block;
             margin:2em;
+            @include media-query($on-palm){
+                margin:0
+            }
         }
 
         .postlist-link{
@@ -403,6 +407,13 @@
             border-radius: 10px;
             :visited{
                 color:#696a6d;
+            }
+            @include media-query($on-palm){
+                font-size:1em;
+                color:#00b3b3;
+                background-color:white;
+                margin:0;
+                padding:0;
             }
             
         }
