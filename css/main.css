@@ -468,6 +468,11 @@ pre {
       background-color: #ffffff;
       color: #696a6d; }
 
+.center {
+  display: block;
+  margin: auto;
+  text-align: center; }
+
 /**
  * Syntax highlighting styles
  */
