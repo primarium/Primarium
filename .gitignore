@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 
 .vscode/settings.json
+compilerconfig.json
+compilerconfig.json.defaults

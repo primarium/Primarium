@@ -1,6 +1,6 @@
-﻿---
-# Only the main Sass file needs front matter (the dashes are enough)
----
+﻿//---
+//please work sass
+//---
 //@charset "utf-8";
 
 // Our variables
@@ -19,9 +19,6 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
- 
- 
- 
 // Width of the content area
 $content-width:    100%;
 $on-palm:          600px;

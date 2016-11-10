@@ -224,12 +224,11 @@
 .aboutlink:hover {
     color: #00b3b3;
 }
-
 .modal {
     visibility: hidden;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     -moz-transform: translate(-50%, -50%);
