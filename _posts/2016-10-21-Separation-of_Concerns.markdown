@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Follow the Intern - Seperation of Concerns"
+title:  "Follow the Intern - Separation of Concerns"
 date:   2016-10-12 12:33:08 -0600
 categories: Tech
 ---
-### Seperation of Concerns
+### Separation of Concerns
 
 The first issue we are going to look at in our Follow the Intern series is a toughie because it is more conceptual than practical and because there is not total agreement
 about what Separation of Concerns looks like. It is also tied to the idea of Single Responsibility. Rather than have two articles We'll talk about them together since that is how they are implemented.
@@ -39,7 +39,7 @@ Realistically this is NOT always, or even often, how you will see software writt
 
 <strong>Models:</strong> Models representing directly, the data we are storing, as it is stored in the database
 
-<strong>View Model:</strong>  Models representing the data in the state we want it in for our views, translated from the way they are stored in the database.
+<strong>View Model:</strong>  Models representing the data in the state we want it in for our views, translated from the way they are stored in the database. A ViewModel is essential a Model that has been adjusted to be formatted the way we need it to be to use it for a particular purpose.
 
 <strong>View:</strong>  The base page and how we want to display things to users
 
