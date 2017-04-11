@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Follow the Intern - Fly Your Own Ship"
+title:  "Fly Your Own Ship"
 date:   2017-04-11 12:33:08 -0600
 categories: Tech
 ---
