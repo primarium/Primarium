@@ -2,7 +2,7 @@
 layout: post
 title:  "Fly Your Own Ship"
 date:   2017-04-11 12:33:08 -0600
-categories: Tech
+categories: Tech General
 ---
 
 Note: I've removed some old posts and so it may look like a big gap between now and my last post but I just decided to drop some things. I got a 3d printer and was going to write about it but I've decided I don't want to write about that so I dropped the posts. Back to the intern.

@@ -10,7 +10,7 @@ Welcome to my Blog. I hope you find the articles interesting and that you are bo
 
 I am a self educated software developer. I spent most of my career so far working at DineEquity, a restaurant franchising company. I recently started working at Compassion International, a faith based non-profit based in Colorado Springs. 
 
- I am a fan of both open and closed source solutions and I favor C# ASP.NET frameworks for back end programming most of the time, however I am also a big fan of Node.JS. This Blog is written using Jekyll a ruby based satic site generator.
+ I am a fan of both open and closed source solutions and I favor C# ASP.NET frameworks for back end programming most of the time, however I am also a big fan of Node.JS. This Blog is written using Jekyll a ruby based static site generator.
 
 #### I may at times include code snippets in my blog such as the one below:
 
