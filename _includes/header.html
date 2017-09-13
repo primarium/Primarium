@@ -1,16 +1,16 @@
-<header class="site-header">
-  <div class="wrapper">
-    <nav class="site-nav">
-      <div class="leftnav">
-        <a class="page-link" href="{{ site.baseurl }}/">Primarium</a>
-      </div>
-      <div class="trigger">
-        {% for my_page in site.pages %}
+<header>
+  <nav>
+    <input type="checkbox" id="nav" class="hidden"/>
+    <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+    <div class="nav-container">
+      <ul>
+        <li><a class=page-link href="{{site.url}}">Primarium</a></li>
+          {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
           {% endif %}
         {% endfor %}
-      </div>
-    </nav>
-  </div>
+      </ul>
+    </div>
+  </nav>
 </header>

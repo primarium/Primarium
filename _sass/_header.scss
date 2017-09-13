@@ -1,0 +1,188 @@
+
+/*
+Nav CSS Settings
+*/
+nav {
+    padding: 30px;
+  }
+  nav ul {
+    float: right;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li:not(:first-child) {
+    margin-left: 25px;
+  }
+  nav ul li a {
+    display: inline-block;
+    outline: none;
+    color: $brand-color;
+    font-size: $large-font-size;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+  }
+  nav ul li a:hover {
+    color: #808080;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 560px) {
+    .nav-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      background: $brand-color;
+      opacity: 0;
+      transition: all 0.2s ease;
+    }
+    .nav-container ul {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+    }
+    .nav-container ul li {
+      display: block;
+      float: none;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .nav-container ul li:nth-child(1) a {
+      transition-delay: 0.2s;
+    }
+    .nav-container ul li:nth-child(2) a {
+      transition-delay: 0.3s;
+    }
+    .nav-container ul li:nth-child(3) a {
+      transition-delay: 0.4s;
+    }
+    .nav-container ul li:nth-child(4) a {
+      transition-delay: 0.5s;
+    }
+    .nav-container ul li:not(:first-child) {
+      margin-left: 0;
+    }
+    .nav-container ul li a {
+      padding: 10px 20px;
+      opacity: 0;
+      color: #fff;
+      font-size: 32px;
+      font-weight: 800;
+      transform: translateY(-20px);
+      transition: all 0.2s ease;
+    }
+    .nav-open {
+      position: fixed;
+      right: 10px;
+      top: 10px;
+      display: block;
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      z-index: 9999;
+    }
+    .nav-open i {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: $brand-color;
+      border-radius: 2px;
+      margin-left: 20px;
+    }
+    .nav-open i:nth-child(1) {
+      margin-top: 20px;
+      transition: transform 0.3s ease;
+    }
+    .nav-open i:nth-child(2) {
+      margin-top: 4px;
+      transition: transform 0.3s ease;
+    }
+    .nav-open i:nth-child(3) {
+      margin-top: 4px;
+      transition: transform 0.3s ease;
+    }
+  }
+  #nav:checked + .nav-open i {
+    background: #fff;
+  }
+  #nav:checked + .nav-open i:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 4px);
+  }
+  #nav:checked + .nav-open i:nth-child(2) {
+    transform: translateX(100px);
+  }
+  #nav:checked + .nav-open i:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -4px);
+  }
+  #nav:checked ~ .nav-container {
+    z-index: 9990;
+    opacity: 1;
+  }
+  #nav:checked ~ .nav-container ul li a {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .site-nav {
+    padding-top:.5em;
+    font-size:1.5em;
+    font-weight: 300;
+    margin:auto;
+    //line-height: 56px;
+    max-width: $nav-width;
+    display:block;
+
+    .menu_button{
+        display:none;
+    }
+
+    .trigger{
+        display:inline-block;
+    }
+    .page-link {
+        display:inline-block;
+        color: $text-color;
+        line-height: $base-line-height;
+        text-decoration: none;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+    @include media-query($on-palm) {
+        z-index: 5;
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: center;
+        padding:.5em;
+        .menu_button{
+            display:block;
+           
+        }
+        #menulink{
+            display:block;
+            margin:auto;
+        }
+        .page-link {
+            z-index: 6;
+            display: block;
+            padding: 5px;
+            border:none;
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 0px;
+        }
+        .trigger{
+            display:none;
+        }
+    }
+}

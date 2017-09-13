@@ -7,10 +7,13 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
+ 
 /**
  * Basic styling
  */
+html, body {
+    height: 100%;
+}
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -22,6 +25,10 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
+a{
+    text-decoration: none;
+    color: $brand-color;
+}
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -32,8 +39,6 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * Images
  */
@@ -41,8 +46,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -54,8 +57,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -79,27 +80,6 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
-
-
-
-/**
- * Links
- */
-a {
-    color: $brand-color;
-    text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
-}
-
-
 
 /**
  * Blockquotes
@@ -144,22 +124,15 @@ pre {
         padding-left: 0;
     }
 }
-
-
-
 /**
  * Wrapper
  */
 .wrapper {
-    
     @extend %clearfix;
-
     @include media-query($on-laptop) {
         
     }
 }
-
-
 
 /**
  * Clearfix

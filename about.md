@@ -18,4 +18,4 @@ For a little more about me here are a few posts that focus on me:
 
 <a class="aboutlink" href="https://primarium.io/tech/2016/09/07/my-philosophy.html">My Philosophy</a>
 
-If you see a link like <span class="defclick" data-target="/def/Example-Def.html">THIS</span> give it a click(or a tap) and you should get a popup on your screen explaining that word. I do this to try to make my site more accessible to less technical folks.
+

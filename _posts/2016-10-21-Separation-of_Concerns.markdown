@@ -17,23 +17,12 @@ What is one thing though? You might think of one thing as logging into a website
 
 The annoying answer is that there isn't a good definition for one thing, but I can say that none of those things are it. When designing software its actually easier to break things up into larger sections first, then break those down into smaller pieces to understand this idea. The most common version of this is called MVC or Model View Controller. MVC splits a program out into three parts:
 
-<ul>
-    <li class="parent-list-style1">The Model
-        <ul>
-            <li class="child-list-style1">The Model is the information and objects your program will use. If you have a set of data that makes up a customer, things like address and name, you make a model represetning what this information looks like and how its formatted. </li>
-        </ul>
-    </li>
-    <li class="parent-list-style1">The View
-        <ul>
-            <li class="child-list-style1">The view is how we display this data, what should it look like on our customers screen. What elements do we need other than data, such as images, fonts, etc to make our page look the way we want. </li>
-        </ul>
-    </li>
-    <li class="parent-list-style1">The Controller
-        <ul>
-            <li class="child-list-style1">The Controller section of our program is the workhorse, it loads the information, process input from a View that has a form on it, or any other "logic" you want to apply.</li>
-        </ul>
-    </li>
-</ul>
+#### The Model
+<p>The Model is the information and objects your program will use. If you have a set of data that makes up a customer, things like address and name, you make a model represetning what this information looks like and how its formatted.</p>
+#### The View
+<p>The view is how we display this data, what should it look like on our customers screen. What elements do we need other than data, such as images, fonts, etc to make our page look the way we want. </p>
+#### The Controller
+<p>The Controller section of our program is the workhorse, it loads the information, process input from a View that has a form on it, or any other "logic" you want to apply.</p>
 
 Realistically this is NOT always, or even often, how you will see software written. You often times see something like:
 

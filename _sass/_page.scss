@@ -1,0 +1,60 @@
+.page-content-nopad{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -18em; /* the bottom margin is the negative value of the footer's height */
+    display:block;
+ }
+.page-content {
+    padding: $spacing-unit 2em;
+    max-width: 100%;
+}
+.page-content-nopad {
+    padding: 0;
+    max-width: 100%;
+}
+.page-content-centered {
+    padding: $spacing-unit 0;
+    text-align:center;
+}
+.page-heading {
+    font-size: 40px;
+    text-align:center;
+    margin-bottom: 0;
+}
+.post-list {
+    margin-left: 0;
+    list-style: none;
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+@include media-query($on-palm) {
+    .postNav{
+        width:100%;
+    }
+    .typeform-widget{
+        margin-top:4em;
+    }
+    .page-content-nopad{
+        width:100%; 
+    }
+    .page-content{
+        padding: 0 0 15% 0;
+    }
+    .page-content{
+        width:90%;
+        margin:auto;
+    }
+}
+object{
+    width:100%;
+}

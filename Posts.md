@@ -3,12 +3,12 @@ layout: page
 title: Posts
 permalink: /Posts/
 ---
-<nav>
-    <a class='postclick' data-target="allposts"><strong>All posts</strong></a>
+<div class="postNav">
+    <a class='postclick' data-target="allposts">All posts</a>
     {% for category in site.categories %}
-        <a class='postclick' data-target="{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> 
+        <a class='postclick' data-target="{{ category | first | remove:' ' }}">{{ category | first }}</a> 
     {% endfor %}
-</nav>
+</div>
 <hr class='hr1' />
 <div class="catbloc allposts">
     <h2>All posts</h2>
