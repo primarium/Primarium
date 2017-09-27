@@ -2,7 +2,7 @@
 layout: post
 title:  "Book Review: Extreme Ownership"
 date:   2017-04-18 12:33:08 -0600
-categories: "Books"
+categories: "Reviews"
 ---
 <strong>Extreme Ownership</strong> is a book by Jocko Willink that generally falls into my least favorite type of book. It's a book about self-betterment and becoming a better leader. 
 When I describe Extreme Ownership to someone it always feels like I'm suggesting so fluffy self-help book that tries to play itself off as a tough love self-help book. 
