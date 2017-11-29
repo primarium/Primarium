@@ -5,17 +5,11 @@ permalink: /about/
 ---
 
 <p>Welcome to my blog Primarium.IO </p>
-<p>I am Justin Isbell, a software Developer based in Colorado Springs, Colorado. Since I am a software developer you can expect me to share quite a few posts regarding software development but 
-dont be surprised to run into a few of my posts relating to my other interests, which are, woodworking, philanthropy, and education.</p>
+<p>I am Justin Isbell, a software Developer and aspiring triathlete based in Colorado Springs, Colorado. I am a father to two and husband to one wonderful wife.
+</p>
+
+<p>This blog was origionally to be about my tech work but I found myself wanting to write more and more about my faith, my tri training, and whatever else I want, so youll find those kinds of things here.</p>
 
 <p>Feel free to browse my posts and see my current and past projects. Feel free to contact me with any inquiries over using my work in your project or collaborating on a new project.</p>
 
 <p>You can contact me <a class="aboutlink" href="https://www.primarium.io/contact">here</a> or at justin@primarium.io</p>
-
-For a little more about me here are a few posts that focus on me:
-
-<a class="aboutlink" href="https://primarium.io/general/2016/09/06/welcome-to-primarium.html">Welcome to Primarium</a>
-
-<a class="aboutlink" href="https://primarium.io/tech/2016/09/07/my-philosophy.html">My Philosophy</a>
-
-
