@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Swimming is Hard"
-date:   2018-02-227 12:33:08 -0600
+date:   2018-02-27 12:33:08 -0600
 categories: Fitness
 ---
 
