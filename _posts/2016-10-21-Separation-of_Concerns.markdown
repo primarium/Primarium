@@ -2,7 +2,7 @@
 layout: post
 title:  "Follow the Intern - Separation of Concerns"
 date:   2016-10-12 12:33:08 -0600
-categories: Tech
+categories: Dev
 ---
 ### Separation of Concerns
 
