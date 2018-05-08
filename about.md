@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /About/
 ---
 
 <p>Welcome to my blog Primarium.IO </p>
